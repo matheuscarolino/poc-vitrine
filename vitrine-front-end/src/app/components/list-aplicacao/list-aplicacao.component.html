@@ -1,0 +1,16 @@
+  <div class="container">
+      
+    <div class="row">
+      <div class="card mt-5 ml-5" style="width: 32rem;" *ngFor="let aplic of data ">
+          <div class="card-header">
+              {{aplic.nome}}
+            </div>
+        <img class="card-img-top" [src]="aplic.imagem" alt="Card image cap">
+        <div class="card-body">
+          <p class="card-text">{{aplic.descricao}}</p>
+          <a href="#" class="btn btn-primary">Abrir aplicação</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
