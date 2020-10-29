@@ -9,7 +9,7 @@ Projeto vitrine para exibição de outras aplicações.
 
 <h2>Arquitetura em geral</h2>
 
-<h3>Observação:<h3>
+<h3>Observação:</h3>
 Não foi criado os serviços API Gateway, Auth Service e back-end legado
 
 
